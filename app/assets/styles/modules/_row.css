@@ -10,10 +10,22 @@
     padding-right: 65px;
   }
 
+  &--gutters-large {
+    margin-right: -100px;
+  }
+
+  &--gutters-large > div {
+    padding-right: 100px;
+  }
+
   @mixin medium {
     &__4 {
       float: left;
       width: 33.33%;
+    }
+    &__6 {
+      float: left;
+      width: 50%;
     }
     &__8 {
       float: left;
